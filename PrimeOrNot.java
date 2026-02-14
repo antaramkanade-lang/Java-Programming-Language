@@ -12,7 +12,7 @@ public class PrimeOrNot {
             /*
              * In this for loop instead of writing i<=num-1, we have to write:
              * i<=Math.sqrt(num), its the root of num because it saves time for executing
-             * large numbers. Under root n requirs less time than num-1 for execution
+             * large numbers. Under root n requires less time than num-1 for execution
              */
             for (int i = 2; i <= Math.sqrt(num); i++) {
                 if (num % i == 0) {
