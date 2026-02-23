@@ -1,5 +1,6 @@
 import java.util.*;
 
+// Time complexity=we used three nested loops so its O(n^3).
 public class SubArrays {
     public static void subArrays(int numbers[]) {
         int totalSubarrays = 0;
