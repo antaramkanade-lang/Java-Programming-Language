@@ -1,5 +1,6 @@
 import java.util.*;
 
+//time complexity=O(n log n).
 public class Anagrams {
     public static boolean isAnagram(String str1, String str2) {
         if (str1.length() != str2.length()) {
