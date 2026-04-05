@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class LinkedList {
+public class MyLinkedList {
     // We created single node here.
     public static class Node {// Here another class is created as Node.
         int data;
